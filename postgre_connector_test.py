@@ -5,7 +5,7 @@ try:
     connection = psycopg2.connect(
         dbname="dvdrental",       # The database name you created earlier
         user="postgres",          # Your PostgreSQL username (default is postgres)
-        password="290513",  # REPLACE WITH YOUR ACTUAL PASSWORD
+        password="XXXXXX",  # REPLACE WITH YOUR ACTUAL PASSWORD
         host="localhost",         # Running locally
         port="5432"               # Default PostgreSQL port
     )
