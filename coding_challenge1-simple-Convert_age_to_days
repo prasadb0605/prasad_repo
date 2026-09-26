@@ -1,0 +1,7 @@
+#Create a function that takes the age in years and returns the age in days. ignore leap years and use 365 days as standard
+def calc_age(age):
+    days = age * 365
+    print(f"Age in years: {age} | Age in days: {days}")
+    return days
+
+calc_age(25)  # Example usage: Calculate age in days for 25 years
